@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chewy's Workspace Switch</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        div {
+            display: block;
+            unicode-bidi: isolate;
+        }
+
+        body {
+            background-color: whitesmoke;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .container {
+            width: 100%; /* Make the container fill the available width */
+            max-width: calc(100% - 20%);
+            margin: 0 auto; /* Center the container horizontally */
+            padding: 0 20%; /* Add padding to the sides */
+            display: flex;
+            justify-content: space-between;
+            object-fit: contain;
+        }
+
+        h1, h2, h3, h4, p {
+            font-family: "IBM Plex Mono", monospace;
+            font-weight: 300;
+            font-style: normal;
+            margin-top: 3%;
+            text-align: center;
+            width: 100%;
+            border: .5px solid grey;
+            border-width: 100%;
+            padding: 5%;
+        }
+
+        h2 {
+            overflow: hidden; /* Ensure text stays inside the box */
+        }
+
+        .profile-img {
+            font-family: "Archivo Black", sans-serif;
+            margin-top: 3%;
+            text-align: center;
+            width: 100%;
+            border: .5px solid grey;
+            border-width: 100%;
+            padding: 4%;
+        }
+
+        .collaboration-box:hover .hover-image,
+        .collaboration-box2:hover .hover-image2 {
+            opacity: 1; /* Show the image on hover */
+            transform: translate(-50%, -50%) scale(1.1); /* Scale up the image slightly and center it */
+            object-fit: contain;
+        }
+
+        .portfolio {
+            padding: 20px;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .gallery img {
+            max-height: 200px; /* Set the maximum height for the images */
+            width: auto;
+            object-fit: contain; /* Allow the width to adjust automatically based on aspect ratio */
+            margin-bottom: 20px; /* Add some space between images */
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Chewy's Data Transfer</h1>
+        <h2><b>Overview:</b></h2>
+        <h3>Must have: (Recommendations from Blue Surf I.T.)<br /><br />
+            <ul style="text-align: left;">
+                <li>License housekeeping</li>
+                <li>Historical email transfer/sync</li>
+                <li>Utilizing GoDaddy as a host serves us adequately at Cartel, so a smaller company like Chewy's should meet our requirements</li>
+                <li>Secure file sharing with decent storage (permissions are a must)</li>
+                <li>Remote PC email setup (MSFT-365 or G-Workspace)</li>
+                <li>Data protection with automated backup</li>
+            </ul>
+        </h3>
+        
+            
+        
+        <h3>Info:<br /><br />
+            <ul style="text-align: left;">
+                <li>Domain hose: Godaddy</li>
+                <li>User count: 6</li>
+            </ul>
+
+        </h3>
+
+         <h3>Users:<br /><br />
+            <ol style="text-align: left;">
+                <li>indsay@chewys </li>
+                <li>Jazmine@chewys.com</li>
+                <li>sales@chewys.com</li>
+                <li>accounting@chewys.com</li>
+                <li>catherine@chewys.com</li>
+                <li>Jason would like an email created: jason@chewys.com</li>
+            </ol>
+        </h3>
+    </div>
+    
+    <div>
+        <h3>Suite/workspace options:<br /><br />
+            <ul style="text-align: left;">
+                <p>If you're contemplating essential solutions recommended by Blue Surf I.T., these options serve as a robust starting point. Additional features, such as MSFT co-pilot, can be incorporated later if you discover the need to boost the agility of your lean team.</p>
+            </ul>
+        </h3>
+    </div>
+    <div class="collaboration-box"></div>
+   <div class="profile-container">
+    <img class="profile-img" src="./assets/unnamed (12).png" style="width: 30%;">
+</div>
+
+
+    <div>
+        <h3><b>Suite/workspace options:</b></h3>
+        
+    </div>
+
+
+    <div class="collaboration-box">
+        <p>If you're contemplating essential solutions recommended by Blue Surf I.T., these options serve as a robust starting point. Additional features, such as MSFT co-pilot, can be incorporated later if you discover the need to boost the agility of your lean team.</p>
+            <img src="./assets/Microsoft_365_logo.png" style="width: 30%; class="hover-image2" alt=""><br /><br />
+            <img src="./assets/2560px-Google_Workspace_Logo.svg.png" style="width: 30%; class="hover-image2" alt="">
+        </a>
+    </div>
+    
+   
+
+    <div class="collaboration-box2">
+        <h3>Notes:<br /><br />
+            <ol style="text-align: left;">
+                <li>Free trials are currently active (*Yunkin's CC is on file)</li>
+                <li>Microsoft 365 Business Standard is not recommended due to its lack of cyberthreat protection, endpoint protection, and advanced identity and access management features. If you're interested in Microsoft 365 Business Standard, it's available at half the cost of the following packages</li>
+               
+            </ol>
+        </h3>
+
+    </div>
+    <div>
+        <h3><b><a href="https://www.microsoft.com/en-us/microsoft-365/business/compare-all-microsoft-365-business-products" target="_blank">Microsoft 365 Business Premium (with Teams)</a><br /><br />Total - $1,584/year (6 users)($22.00 per user/month)</b></h3>  
+    </div>
+    
+
+    <div>
+    <h3>Pros:<br /><br />
+        <ol style="text-align: left;">
+            <li>Enhanced protection (Discover, classify, and protect sensitive information)</li>
+            <li>1 TB of cloud storage </li>
+            <li>Sharepoint</li>
+            <li>Office apps</li>
+        </ol>
+    </h3>
+    </div>
+
+     <div>
+        <h3><b><a href="https://www.microsoft.com/en-us/microsoft-365/business/compare-all-microsoft-365-business-products" target="_blank">Microsoft 365 Bussiness Premium (no Teams)</a><br /><br />Total  - $1,422/year (6 users)($19.75 per user/month)</b></h3>  
+    </div>
+    <div>
+        <h3>Pros:<br /><br />
+            <ol style="text-align: left;">
+                <li>Enhanced protection (Discover, classify, and protect sensitive information)</li>
+                <li>1 TB of cloud storage </li>
+                <li>Sharepoint</li>
+                <li>Office apps</li>
+            </ol>
+        </h3>
+        </div>
+
+        <div>
+            <h3><b>Google Workspace Business Plus<br /><br />Total - $1,295.95/year (6 users)($21.60 per user/month up to 20 users)*Discount Promotion</b></h3>  
+        </div>
+        <div>
+            <h3>Pros:<br /><br />
+                <ol style="text-align: left;">
+                    <li>Yearly payment (contract)</li>
+                    <li>Requires 1-year contract, subject to closeout charge for early termination. No refunds for the prepaid amount</li>
+                    <li>Pay each year based on total users committed upfront, starting Apr 29, 2024</li>
+                    <li>Add users as needed, remove users only when you renew the contract</li>
+                </ol>
+            </h3>
+            </div>
+
+        <div>
+            <h3><b>Subtask Roadmap</b></h3>
+                
+        </div>
+        
+            <div><h3>
+                    <ol style="text-align: left;">
+                        <li>Data/login pull:</li>
+                            <ul>
+                                <li>Payment credentials for subscription services</li>
+                                <li>All current login information (emails, domain, etc.)</li>
+                                    <ul><li>accounting@chewys.com (owner has this info)</li></ul>
+                                <li>Permission matrix for cloud drive</li>
+                                <li>Needed files file flow/structure for file sharing </li>
+                                <li>Define admin accounts</li></ul>
+                                <li>New Godaddy account under new LLC</li>
+                                <li>Transfer ownership from old Godaddy to new Godaddy account</li>
+                                <li>Complete Godaddy setup</li>
+                                <li>Setup new company-wide suite:</li>
+                                <ul><li>Email syncing is a must</li>
+                                    <li>File sharing setup with permissions</li></ul>
+                                <li>Setup inbox (dependent on desktop or cloud services):</li>
+                                <ul><li>Remote viewer installation (option 1)</li>
+                                    <li>Walk through video of step by step setup (option 2)</li></ul>
+                                <li>Google doc of all new info:</li>
+                                <ul> <li>One-pager</li>
+                            </ul>
+                    </ol>
+                </h3>
+    <div>
+        <h3><b>Recommendations:</b></h3>
+    </div>
+
+    <div>
+        <h3><ul style="text-align: left;">
+                <li>If feasible, opt for Blue Surf I.T. because they are knowledgeable and competent. Additionally, inquire if they can waive the surcharge</li>
+                    <ul><li>The drive and implementation they are providing is reasonable for the $800-$1,200 range</li>
+                    <li>Blue Surf I.T. will build a company technology infrastructure for your current needs and also for the future.</li></ul>
+                <li>Website PR, SEO, keywords, and keyphrases are recommended for searchability</li>
+            </ul>
+
+        </h3>
+                    
+    </div>
+            
+        
+</body>
+</html>
